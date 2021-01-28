@@ -18,7 +18,7 @@ const Sell_1 = () => {
     return (
         <div className="container boundary mt-5">
             <div className="container mt-5">
-                <h4 className="my-5"> Stablecoin gateway - Sell</h4>
+                <h4 className="my-5">Stablecoin gateway - Sell</h4>
                 <SplitButton
                     key={"down"}
                     id={`dropdown-button-drop-${"down"}`}

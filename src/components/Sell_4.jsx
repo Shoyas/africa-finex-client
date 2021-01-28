@@ -13,7 +13,7 @@ const Sell_4 = () => {
     const postSell = () => {
         const storingData = { account, finalWalletSell, token, txid };
 
-        fetch("http://localhost:5000/sell", {
+        fetch("https://powerful-gorge-76371.herokuapp.com/sell", {
             method: "POST",
             body: JSON.stringify(storingData),
             headers: {

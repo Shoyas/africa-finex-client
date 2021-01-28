@@ -21,7 +21,7 @@ const Buy_4 = () => {
     const handleBuy = () => {
         const storingData = { finalWallet, currency: currency, SwapId: htmlId, selectedBank, IBAN: finalWallet };
 
-        fetch("http://localhost:5000/buy", {
+        fetch("https://powerful-gorge-76371.herokuapp.com/buy", {
             method: "POST",
             body: JSON.stringify(storingData),
             headers: {
