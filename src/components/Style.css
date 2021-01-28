@@ -1,0 +1,8 @@
+/* This is all component's style  */
+
+/* All component's boundary */
+.boundary{
+    border: 4px double #AED6E0;
+    border-radius: 10px;
+}
+
